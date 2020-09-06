@@ -1,16 +1,91 @@
 
+/** Reset */
 * {
   border: 0;
   margin: 0;
   padding: 0;
 }
 
+/** Body */
 body {
+  color: #111;
+  font: 16px/24px sans-serif;
+  font-family: BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   width: 100%;
 }
 
-/** container */
+/** Container */
 .container {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 32px 64px;
+  position: relative;
+}
+
+/** Common */
+.section {
+  margin-bottom: 20px;
+}
+.section-header {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.info {
+  color: #6B6B6B;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20px;
+}
+.main-info {
+  font-size: 20px;
+  line-height: 28px;
+}
+.item-title {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.code {
+  padding: 0.2em 0.4em;
+  font-size: 85%;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px
+}
+
+/** Preview section */
+.preview-header {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.preview-ava {
+  border-radius: 5px;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 32px;
+  right: 64px;
+}
+.preview-link {
+  color: #6E41E2;
+  text-decoration: none;
+}
+.preview-link:hover {
+  color: #5835B0;
+  text-decoration: underline;
+}
+.preview-link:active {
+  color: #472C8A;
+}
+
+/** Skills section */
+.skills-list {
+  padding-left: 30px;
+}
+.skills-list-item {
+  margin-bottom: 4px;
 }
